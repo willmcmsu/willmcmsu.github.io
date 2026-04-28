@@ -17,7 +17,7 @@
   <header class="site-header">
     <div class="header-inner">
       <div class="header-name">Will McNeilly</div>
-      <div class="header-tagline">Basketball Prodigy | MSU Data Scientist | Good Boy</div>
+      <div class="header-tagline">MSU Data Scientist | Sports Analytics | Visualization Enthusiast</div>
     </div>
 
     <!-- Navigation bar -->
@@ -26,6 +26,7 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
+    
   </header>
 
   <!-- ===== Main content (filled in by child templates) ===== -->
@@ -35,7 +36,12 @@
 <!-- ===== About section ===== -->
 <section id="about" class="section about-section">
   <h2>About Me</h2>
-  <div class="about-text"><p>I am a data scientist at Michigan State University.</p></div>
+  <div class="about-text"><p>I am a Data Scientist at Michigan State University. 
+My goal is to take data and turn it into a visualization, to help inform and make real world decisions. 
+I enjoy combining my technical skills with clear communication through clean visuals and reproducible workflows. 
+My favorite field of study is in sports analytics.</p>
+<p>These projects focus on creating meaningful insights from complex datasets, with an emphasis on clear communication and actionable results.
+Data visualization is a key part of my work, and I strive to create visuals that are not only informative but also engaging and easy to understand.</p></div>
 </section>
 
 <!-- ===== Projects section ===== -->
@@ -49,31 +55,39 @@
       <!-- Project thumbnail image -->
       <div class="project-image-wrapper">
         <img
-          src="img/lebron.png"
-          alt="Thumbnail for LeBron is Pookie Bear"
+          src="img/aws_logo.png"
+          alt="Thumbnail for AWS Cloud Computing"
           class="project-image"
         />
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">LeBron is Pookie Bear</h3>
+        <h3 class="project-title">AWS Cloud Computing</h3>
 
         <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">Anyone else just love LeBron James?&#34;
+        <p class="project-summary">This project performs an analysis of the NYC 311 service requests to identify patterns and complaint types by agency and borough. The project utilizes AWS services for data storage, processing, and visualization.&#34;
 </p>
 
         <!-- Tech stack as pill badges -->
         <div class="tech-stack">
           
-          <span class="tech-badge">Python</span>
+          <span class="tech-badge">SQL</span>
           
-          <span class="tech-badge">scikit-learn</span>
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena</span>
+          
+          <span class="tech-badge">AWS Sagemaker</span>
           
           <span class="tech-badge">pandas</span>
           
-          <span class="tech-badge">matplotlib</span>
+          <span class="tech-badge">numpy</span>
           
           <span class="tech-badge">Jupyter Notebooks</span>
+          
+          <span class="tech-badge">matplotlib</span>
+          
+          <span class="tech-badge">sklearn</span>
           
         </div>
 
@@ -83,19 +97,19 @@
 
           <div class="detail-block">
             <h4>Problem</h4>
-            <p>LeBron does not yet know of my existence.
+            <p>The mayor&#39;s office wants to know whether certain types of  311 complaints are likely to be resolved within 3 days - can we build a model to flag fast vs. slow resolutions at intake?
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>I approach LeBron
+            <p>Two main datasets were used: complaints.csv and agencies.csv. The complaints dataset contains 311 service request records,  while the agencies dataset provides information about the city agencies responsible for handling those requests.  The data was stored in AWS S3 and queried using AWS Athena to perform exploratory data analysis and feature engineering.  A machine learning model was then trained using AWS Sagemaker to predict whether a complaint would be resolved within 3 days  based on features such as problem, agency, borough, and hour of the day.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>He knows now.
+            <p>The model achieved an accuracy of 78% on the test set, indicating that it can reasonably predict which complaints are likely to be resolved quickly.  This information can help the mayor&#39;s office prioritize resources and improve response times for certain types of complaints.
 </p>
           </div>
         </details>
@@ -103,13 +117,86 @@
         <!-- Links to the GitHub repo and notebook -->
         <div class="project-links">
           
-          <a href="https://github.com/zeke-wonder-dog/nap-spot-predictor" target="_blank" rel="noopener" class="btn btn-repo">
+          <a href="https://github.com/willmcmsu/aws-nyc311-mcneil42" target="_blank" rel="noopener" class="btn btn-repo">
             View Repo
           </a>
           
           
-          <a href="https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
-            View Notebook
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/slam.png"
+          alt="Thumbnail for Southwest Lansing Analytics and Mapping"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Southwest Lansing Analytics and Mapping</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">For this project, myself and three classmates teamed up with  Michigan State University’s Center for Community and Economic Development (CCED) to analyze and visualize data about the Southwest Lansing community. We created an app that allows users to explore various types of data, from general demographics to specific food access, all within the Southwest Lansing area.  The app was designed to be user-friendly and interactive, allowing non-tecnhical users to easily navigate and understand the data. 
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">JavaScript</span>
+          
+          <span class="tech-badge">HTML/CSS</span>
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Excel</span>
+          
+          <span class="tech-badge">ArcGIS</span>
+          
+          <span class="tech-badge">OnRender</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>The CCED wanted to team up with MSU data science students in an effort to create a tool  that could be used by local organizations to explore and understand the Southwest Lansing community. The goal was to create an interactive app that would allow users to explore various types of data that could be focused around the needs of these local organizations, such as housing data and food access.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Our team sorted through over 50 data sources to find the most granular and relevant data for the Southwest Lansing area. We used ArcGIS to create maps and visualizations of the data, and then built an interactive web app  using JavaScript, HTML/CSS, and Python to allow users to explore the data in a user-friendly way.  We also worked closely with the CCED and local organizations to ensure that the app met their needs and was easy to use.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>This app will be used as a foundation for both the CCED, their community partners, and local organizations to explore and understand the Southwest Lansing community. Future groups will be able to follow our structure and see our data catalog, to be able to implement their own data and build on our work. Thank you to the CCED for the opportunity to work on this project and create a tool that truly has the potential to make a positive impact in the community.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/landoltk/MSU-Southwest-Lansing-Project" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          
+          <a href="https://msu-southwest-lansing-project.onrender.com/" target="_blank" rel="noopener" class="btn btn-app">
+            View App
           </a>
           
         </div>
@@ -122,17 +209,17 @@
       <!-- Project thumbnail image -->
       <div class="project-image-wrapper">
         <img
-          src="img/placeholder_project_2.png"
-          alt="Thumbnail for Spartan Football Crowd Cheer Analysis"
+          src="img/revenue_barplot_seaborn.png"
+          alt="Thumbnail for Sales and Customer Analysis"
           class="project-image"
         />
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">Spartan Football Crowd Cheer Analysis</h3>
+        <h3 class="project-title">Sales and Customer Analysis</h3>
 
         <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">Analyzed audio and attendance data from Spartan Stadium to understand what game events drive the loudest crowd reactions. Results were used to help the athletics department optimize in-game entertainment and — personally — to determine the exact moments when I should run onto the field for maximum dramatic effect.
+        <p class="project-summary">This small project focused on building a strong reproducible workflow with  the use of virtual environments, to analyze a dataset of sales and customer information for a fictional company. The goal was to create a clear and precise analysis that could easily be followed.&#34;
 </p>
 
         <!-- Tech stack as pill badges -->
@@ -142,11 +229,15 @@
           
           <span class="tech-badge">pandas</span>
           
-          <span class="tech-badge">seaborn</span>
-          
-          <span class="tech-badge">Plotly</span>
+          <span class="tech-badge">matplotlib</span>
           
           <span class="tech-badge">Jupyter Notebooks</span>
+          
+          <span class="tech-badge">Seaborn</span>
+          
+          <span class="tech-badge">venv</span>
+          
+          <span class="tech-badge">conda</span>
           
         </div>
 
@@ -156,34 +247,29 @@
 
           <div class="detail-block">
             <h4>Problem</h4>
-            <p>Fan energy is contagious, but it is also unpredictable. The athletics department wanted to know which in-game events (touchdowns, turnovers, big defensive stops, walk-up music choices) produced the biggest crowd reactions — and whether the pattern differed by opponent, weather, or game time. As the mascot, I had strong professional interest in this question.
-</p>
+            <p></p>
           </div>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>Combined play-by-play game data with decibel readings from stadium microphones across three seasons (~36 home games). Engineered features for score differential, down-and-distance, quarter, temperature, and opponent rank. Produced interactive Plotly dashboards that let non-technical staff filter by season and event type to explore crowd response patterns on their own.
+            <p>This project utilizes a dataset containing sales and customer information for a fictional company. The data was cleaned and preprocessed using pandas, and then analyzed to identify trends and insights related to sales performance and customer behavior. Visualizations were created using matplotlib and seaborn to effectively communicate the findings.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>Defensive turnovers produced the loudest average crowd response — louder even than touchdowns — especially when MSU was trailing. Walk-up music selections in the 3rd quarter showed a statistically significant effect on cheer volume for games decided by fewer than 10 points. The athletics team used these findings to redesign the third-quarter entertainment package for the following season. I was given extra treats for my contributions.
-</p>
+            <p></p>
           </div>
         </details>
 
         <!-- Links to the GitHub repo and notebook -->
         <div class="project-links">
           
-          <a href="https://github.com/zeke-wonder-dog/spartan-cheer-analysis" target="_blank" rel="noopener" class="btn btn-repo">
+          <a href="https://github.com/willmcmsu/cmse492-hw01-mcneil42" target="_blank" rel="noopener" class="btn btn-repo">
             View Repo
           </a>
           
           
-          <a href="https://github.com/zeke-wonder-dog/spartan-cheer-analysis/blob/main/cheer_analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
-            View Notebook
-          </a>
           
         </div>
       </div>
@@ -192,6 +278,7 @@
     
   </div>
 </section>
+
 
 <!-- ===== Contact section ===== -->
 <section id="contact" class="section contact-section">
@@ -218,7 +305,7 @@
 
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
-    <p>Built with the Data Science Portfolio Template &mdash; powered by Python &amp; Jinja2.</p>
+    <p>Designed by Will McNeilly</p>
   </footer>
 
 </body>

@@ -8,21 +8,22 @@
 
 # --- Student profile ---
 # Point this to your profile file inside content/
-student_file: content/example_student.yaml
+student_file: content/my_portfolio.yaml
 
 # --- Projects to display ---
 # List the YAML files (inside content/projects/) you want shown.
 # Remove example projects and add your own once you're ready.
 projects:
-  - content/projects/example_project_1.yaml
-  - content/projects/example_project_2.yaml
+  - content/projects/my_project_1.yaml
+  - content/projects/my_project_2.yaml
+  - content/projects/my_project_3.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"
 # You can also add your own CSS file under static/css/themes/ and
 # use its name here (without the .css extension).
-theme: msu-dark
+theme: msu-light
 
 # --- Site metadata ---
 # Used in the HTML <title> tag and browser tab.
-site_title: "Zeke the Wonder Dog | Data Science Portfolio"
+site_title: "Will McNeilly | Data Science Portfolio"

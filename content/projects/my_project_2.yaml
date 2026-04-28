@@ -1,0 +1,36 @@
+title: "Southwest Lansing Analytics and Mapping"
+
+short_summary: >
+  For this project, myself and three classmates teamed up with 
+  Michigan State University’s Center for Community and Economic Development (CCED) to analyze and visualize data about the Southwest Lansing community.
+  We created an app that allows users to explore various types of data, from general demographics to specific food access, all within the Southwest Lansing area. 
+  The app was designed to be user-friendly and interactive, allowing non-tecnhical users to easily navigate and understand the data. 
+
+tech_stack:
+  - JavaScript
+  - HTML/CSS
+  - Python
+  - Excel
+  - ArcGIS
+  - OnRender
+
+problem_statement: >
+  The CCED wanted to team up with MSU data science students in an effort to create a tool 
+  that could be used by local organizations to explore and understand the Southwest Lansing community.
+  The goal was to create an interactive app that would allow users to explore various types of data that could
+  be focused around the needs of these local organizations, such as housing data and food access.
+
+approach: >
+  Our team sorted through over 50 data sources to find the most granular and relevant data for the Southwest
+  Lansing area. We used ArcGIS to create maps and visualizations of the data, and then built an interactive web app 
+  using JavaScript, HTML/CSS, and Python to allow users to explore the data in a user-friendly way. 
+  We also worked closely with the CCED and local organizations to ensure that the app met their needs and was easy to use.
+
+results_impact: >
+  This app will be used as a foundation for both the CCED, their community partners, and local organizations to explore and understand the Southwest Lansing community.
+  Future groups will be able to follow our structure and see our data catalog, to be able to implement their own data and build on our work. Thank you
+  to the CCED for the opportunity to work on this project and create a tool that truly has the potential to make a positive impact in the community.
+
+repo_url: "https://github.com/landoltk/MSU-Southwest-Lansing-Project"
+app_url: "https://msu-southwest-lansing-project.onrender.com/"
+image_path: "img/slam.png"

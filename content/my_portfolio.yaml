@@ -1,0 +1,23 @@
+# ============================================================
+# content/example_student.yaml
+# ============================================================
+# This is an example student profile. Copy this file to
+# something like content/my_profile.yaml, fill in your own
+# information, and update portfolio_config.yaml to point to it.
+# ============================================================
+
+name: "Will McNeilly"
+tagline: "MSU Data Scientist | Sports Analytics | Visualization Enthusiast"
+
+about: |
+  I am a Data Scientist at Michigan State University. 
+  My goal is to take data and turn it into a visualization, to help inform and make real world decisions. 
+  I enjoy combining my technical skills with clear communication through clean visuals and reproducible workflows. 
+  My favorite field of study is in sports analytics.
+
+  These projects focus on creating meaningful insights from complex datasets, with an emphasis on clear communication and actionable results.
+  Data visualization is a key part of my work, and I strive to create visuals that are not only informative but also engaging and easy to understand.
+
+# Contact information — remove any fields you prefer not to share
+email: "mcneil42@msu.edu"
+github: "https://github.com/willmcmsu"

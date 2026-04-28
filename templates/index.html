@@ -70,6 +70,11 @@
             View Notebook
           </a>
           {% endif %}
+          {% if project.app_url %}
+          <a href="{{ project.app_url }}" target="_blank" rel="noopener" class="btn btn-app">
+            View App
+          </a>
+          {% endif %}
         </div>
       </div>
 
@@ -77,6 +82,7 @@
     {% endfor %}
   </div>
 </section>
+
 
 <!-- ===== Contact section ===== -->
 <section id="contact" class="section contact-section">

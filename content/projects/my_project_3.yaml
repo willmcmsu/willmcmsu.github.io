@@ -1,0 +1,23 @@
+title: "Sales and Customer Analysis"
+
+short_summary: >
+  This small project focused on building a strong reproducible workflow with 
+  the use of virtual environments, to analyze a dataset of sales and customer information for a fictional company.
+  The goal was to create a clear and precise analysis that could easily be followed."
+
+tech_stack:
+  - Python
+  - pandas
+  - matplotlib
+  - Jupyter Notebooks
+  - Seaborn
+  - venv
+  - conda
+
+approach: >
+  This project utilizes a dataset containing sales and customer information for a fictional company.
+  The data was cleaned and preprocessed using pandas, and then analyzed to identify trends and insights related to sales performance and customer behavior.
+  Visualizations were created using matplotlib and seaborn to effectively communicate the findings.
+
+repo_url: "https://github.com/willmcmsu/cmse492-hw01-mcneil42"
+image_path: "img/revenue_barplot_seaborn.png"
