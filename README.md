@@ -1,12 +1,4 @@
-# Data Science Portfolio Template
-
-A ready-to-deploy static portfolio website for data science students. Write your content in simple YAML files, run one command to build, and publish to GitHub Pages — no web-development experience required.
-
-**What you get out of the box:**
-- A professional single-page site with an About section, project cards, and contact links.
-- Light and dark themes you can switch with one config line.
-- Two example projects that demonstrate how to write clearly for a hiring-manager audience.
-
+# Will McNeilly Github Pages Portfolio
 ---
 
 ## Quick start
