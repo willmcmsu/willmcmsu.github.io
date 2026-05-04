@@ -7,10 +7,10 @@
 # ============================================================
 
 name: "Will McNeilly"
-tagline: "MSU Data Scientist | Sports Analytics | Visualization Enthusiast"
+tagline: "Data Scientist | MSU Graduate | Visualization Enthusiast"
 
 about: |
-  I am a Data Scientist at Michigan State University. 
+  I am a Data Science graduate from Michigan State University. 
   My goal is to take data and turn it into a visualization, to help inform and make real world decisions. 
   I enjoy combining my technical skills with clear communication through clean visuals and reproducible workflows. 
   My favorite field of study is in sports analytics.
@@ -19,5 +19,5 @@ about: |
   Data visualization is a key part of my work, and I strive to create visuals that are not only informative but also engaging and easy to understand.
 
 # Contact information — remove any fields you prefer not to share
-email: "mcneil42@msu.edu"
+email: "willmcneilly22@gmail.com"
 github: "https://github.com/willmcmsu"
